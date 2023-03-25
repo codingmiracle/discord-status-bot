@@ -12,7 +12,7 @@ def get_bot_token():
     result = os.getenv('BOT_TOKEN')
     if result:
         return result
-    print("Set your Bot Token in `settings.properties`")
+    print("Set your Bot Token in `.env` as `BOT_TOKEN=your token here`")
     sys.exit()
 
 
